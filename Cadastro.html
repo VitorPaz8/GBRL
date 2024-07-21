@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href=" ./css/style.css" />
+  <link rel="stylesheet" href="./css/botaoAnimado.css">
+  <link rel="stylesheet" href="./css/cadastro.css">
+  <title>Cadastro</title>
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <header>
+    <div class="divisor">
+        <div class="logo">
+          <a link href="./index.html"><img class="logotipo" src="./img/logo.png"></a>
+          <span class="span1">GRBL</span>
+        <span class="span2">BRASIL</span>
+      </div>
+      <div class="volta">
+        <a class="normal" href="./index.html">Inicio</a>
+      </div>
+    </div>
+  </header>
+
+  <form>            
+    <div class="titulo">
+      <p>Cadastre-se</p>      
+    </div>
+    
+    <legend>Nome completo</legend>
+    <input type="text" class="btn-texto">
+    
+    <legend>Telefone</legend>
+    <input type="text" placeholder="Ex: (99) 99999-9999" class="btn-texto">
+    
+    <legend>Email</legend>
+    <input type="text" placeholder="Ex: zezinho.zl@gmail.com" class="btn-texto">
+    
+    <legend>Crie uma senha</legend>
+    <input type="password" class="btn-texto" id="senha">
+    
+    <legend>Corfirme sua senha</legend>
+    <input type="password" class="btn-texto">
+    
+    <div class="check">
+      <input type="checkbox" id="caixa"><label>Receber emails promocionais</label>
+    </div >
+    
+    <label>Já tem um cadastro?  <a href="erro" class="link">Clique aqui para entrar</a> </label>
+
+    <div class="menu">
+      <a class="normal" id="btn-voltar" href="./index.html">Sair</a>
+      <a class="normal" id="btn-continuar" href="erro">Continuar</a>
+    </div>
+    
+  </form>
+</body>
+</html>

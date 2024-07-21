@@ -1,0 +1,162 @@
+body{
+    color: white;
+    background-color:rgb(4, 4, 44);
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.principal{
+    margin-top: 5px;
+    display: flex;
+    .card-titulo{
+        font-size: 40px;
+        color: rgb(219, 187, 4);
+        margin-top: 30px;
+        padding: 0%;
+    }
+}
+.nos{
+    margin: 200px 100px;
+    text-align: left;
+    .card-titulo{
+        margin-top: 50px;
+    }
+    .card-texto{
+        font-size: larger;
+    }
+    hr{
+        border-color: rgb(219, 187, 4);
+    }
+}
+.divisor{
+    background-color: rgb(5, 5, 110);
+    padding: 0%;
+    border-bottom: solid;
+    margin:0px;
+    border-radius: 10px;
+    display:flex;
+    border-color: rgb(219, 187, 4);
+    justify-content: space-between;
+}
+.logo{
+    align-items: center;
+    align-self: auto;
+    display: flex;
+}
+span{
+    font-size: 40px;
+    align-self: center;
+}
+.span2{
+    color: rgb(219, 187, 4);
+}
+.logotipo{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(219, 187, 4);
+    margin: 30px;
+
+}
+.menu{
+    align-self:center;
+    padding: 15px 15px 15px 15px;
+}
+.normal{
+    transition: 0.1s;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(219, 187, 4);
+    background-color:rgb(5, 5, 110);
+    margin: auto;
+}
+a{
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.botoes{
+    padding: 100px;
+    display: flex;
+    .normal2{
+        font-size: 20px;
+        padding: 16px 50px 16px 50px;
+        border-color: rgb(5, 5, 110);
+        margin-left: 130px;
+    }
+}
+.slider{
+    width: 100%;
+}
+.sobre{
+    margin: 0px 10px;
+    display: flex;
+    .card-titulo{
+        color: rgb(219, 187, 4);
+        font-size: 25px;
+        margin-left: 50px;
+        }
+    .card-texto{
+        display: inline-block;
+        margin: 0 50px 15px 50px;
+    }
+    .conts{
+        transition: 0.2s;
+        padding: 0px;
+        background-color: rgb(5, 5, 110);
+        border: 2px solid;
+        border-color: rgb(219, 187, 4);
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .conts:hover{
+        scale: 1.02;
+    }
+    .redes{
+        transition: 0.2s;
+        background-color: rgb(5, 5, 110) ;
+        border: 2px solid;
+        border-color: rgb(219, 187, 4);
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .redes:hover{
+        scale: 1.02;
+    }
+}
+footer{
+    margin: 40px 30px;
+    text-align: justify;
+    .titulo{
+        text-align: justify;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .principal{
+        display: block;
+    }
+    .sobre{
+        display: block;
+    }
+    .nos{
+        margin: 0 20px;
+    }
+    .menu{
+        padding: 0 20px 0 0;
+    }
+    .logotipo{
+        margin: 0px;
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    
+}

@@ -1,0 +1,101 @@
+body{
+    margin: auto;
+}
+.produtos{
+    display: flex;
+    margin: 50px 100px 100px 100px;
+    text-align: left;
+    .card-prod{
+        margin: 0%;
+        padding: 0;
+    }
+    .garantia{
+        transition: 0.2s;
+        border: 2px solid rgb(219, 187, 4);
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: rgb(5, 5, 110);
+    }
+    .garantia:hover{
+        scale: 1.02;
+    }
+    #btn-comprar{
+        background-color: rgb(3, 160, 3);
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        padding: 10px;
+    }
+    #btn-comprar:hover{
+        scale: 1.02;
+        transition: 0.5s;
+        
+    }
+}
+
+.img-prod{
+    margin: 100px 120px 0px -30px;
+    height: 450px;
+    width: 350px;
+}
+.nome-prod{
+    color: rgb(219, 187, 4);
+    font-size: 35px;
+}
+.preco{
+    color: rgb(233, 206, 56);
+    font-size: 25px;
+}
+li{
+    margin-top: 10px;
+    text-align: justify;
+}
+ul{
+    border: medium;
+    border-color: rgb(4, 255, 222);
+}
+.card-prod2{
+    display: inline;
+}
+footer{
+    height: 150px;
+    transition: 0.5s;
+    background-color: rgb(5, 5, 110);
+    border: solid;
+    border-color: rgb(219, 187, 4);
+    margin: 30px 60px;
+    a{
+        height: 150px;
+        display: flex;
+    }
+    h3{
+        color: rgb(219, 187, 4);
+    }
+    .preco{
+        margin-left: 20px;
+        font-size: large;
+    }
+    .nome-prod{
+        color: rgb(219, 187, 4);
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .img-prod2{
+        margin: 20px 0 0 20px;
+        height: 100px;
+        width: 100px;
+    }
+    p{
+        margin: 0px 100px 50px 0px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .card-footer{
+        align-self: center;
+    }
+}
+
+footer:hover{
+    scale: 1.02;
+}

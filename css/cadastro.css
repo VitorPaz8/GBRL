@@ -1,0 +1,69 @@
+  .volta{
+    align-self:center;
+    margin: 20px;
+  }
+  .titulo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  form{
+    margin: 50px 0 0 0;
+    text-align: center;
+  }
+  .btn-texto{
+    width: 300px;
+    font-size: 1em;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  legend{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  #btn-voltar{
+    transition: 0.2s;
+    display: inline-block;
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+  #btn-continuar{
+    transition: 0.2s;
+    display: inline-block;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .menu{
+    display: block;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .check{
+    align-content: baseline;
+    margin-bottom: 20px;
+    #caixa{
+      appearance: none;
+      height: 20px;
+      width: 20px;
+      border: solid rgb(219, 187, 4);
+    }
+    #caixa:checked{
+      background-color: rgb(219, 187, 4);
+    }
+  }
+  
+  .link{
+    font-size: medium;
+    color: blue;
+    text-decoration:underline;
+  }
+  #btn-voltar:hover{
+    background-color: red;
+  }
+  #btn-continuar:hover{
+    background-color: rgb(3, 160, 3);
+  }

@@ -1,0 +1,114 @@
+
+.slider{
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+  height: 620px;
+  margin: 50px 20px 0 0;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.slider-content{
+  display: flex;
+  width: 98%;
+  transition: all 500ms ease;
+
+}
+.input-slide{
+  margin: 0 10% 2% 10%;
+  appearance: none;
+  height: 1.25em;
+  width: 1.25em;
+  border: 2px solid rgb(219, 187, 4);  
+  border-radius: 10px;
+}
+.input-slide:checked{
+  background-color: rgb(219, 187, 4);
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-102%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-206%);
+}
+.img{
+  margin: 20px 0 0 0;
+  width: 250px;
+  height: 250px;
+
+}
+.slider-item{
+  height: 429px;
+  width: 400px;
+  margin-right: 30px;
+  transition: 0.5s;
+  background-color: rgb(5,5,110);
+  border: 2px solid rgb(219, 187, 4);
+  border-radius: 10px;
+  .titulo{
+    font-size: larger;
+  }
+  .card-texto{
+    padding: 0px 20px;
+    font-size: medium;
+    font-weight: 300;
+  }
+}
+.slider-item:hover{
+  scale: 1.02;
+  background-color: rgb(51, 32, 255);
+}
+
+@media screen and (max-width: 1024px) {
+  .slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-110%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-216%);
+}
+}
+@media screen and (max-width: 700px) {
+  .slider-item{
+    margin: 0%;
+  }
+  .slider{
+    padding: 0%;
+  }
+  .slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(0.6%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+}
+@media screen and (max-width: 452px) {
+  .slider{
+    padding: 0%;
+  }
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-201.3%);
+}
+}
