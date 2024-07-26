@@ -55,9 +55,6 @@ ul{
     border: medium;
     border-color: rgb(4, 255, 222);
 }
-.card-prod2{
-    display: inline;
-}
 footer{
     height: 150px;
     transition: 0.5s;
@@ -87,15 +84,57 @@ footer{
         width: 100px;
     }
     p{
-        margin: 0px 100px 50px 0px;
-        margin-left: 20px;
-        font-size: 15px;
-    }
-    .card-footer{
-        align-self: center;
+        margin: 0px 100px 50px 20px;
+        font-size: 18px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
 
 footer:hover{
     scale: 1.02;
+}
+
+@media screen and (max-width: 1024px) {
+    footer{
+        height: auto;
+        p{
+            margin: 0 50px 25px 20px;
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .produtos{
+        display: inline-block;
+    }
+    .img-prod{
+        display: inline-block;
+        margin: 0 0 0 25%;
+    }
+    footer{
+        margin: 30px 20px;
+        p{
+            margin: 0 10px 5px 10px;
+            font-size: 15px;
+        }
+        .nome-prod{
+            margin-left: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    footer{
+        margin: 30px 10px;
+        p{
+            margin: 0 10px 5px 5px;
+            font-size: 15px;
+        }
+        .nome-prod{
+            margin-left: 5px;
+        }
+
+    }
 }
