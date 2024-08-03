@@ -40,11 +40,11 @@
     transform: translateX(0%);
 }
 .slider > input:nth-child(3):checked ~ .slider-content{
-    transform: translateX(-102%);
+    transform: translateX(-104%);
 }
 
 .slider > input:nth-child(4):checked ~ .slider-content{
-    transform: translateX(-206%);
+    transform: translateX(-209%);
 }
 .img{
   margin: 20px 0 0 0;
